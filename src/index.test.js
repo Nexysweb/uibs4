@@ -6,4 +6,6 @@ test('imports', () => {
   expect(typeof e.Hoc).toEqual('object');
   expect(typeof e.Components).toEqual('object');
   expect(typeof e.Form).toEqual('object');
+
+  console.log(e.Form)
 })
