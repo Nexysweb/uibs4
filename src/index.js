@@ -1,6 +1,6 @@
-import Hoc from './hoc';
-import Form from './form';
-import Components from './components';
+import * as Hoc from './hoc';
+import * as Form from './form';
+import * as Components from './components';
 
 export {
   Hoc,
