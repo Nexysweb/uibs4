@@ -1,6 +1,6 @@
 {
   "name": "@nexys/uibs4",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "dependencies": {
     "@nexys/reactutils": "^1.2.0",
     "cleave.js": "^1.5.3",
