@@ -1163,6 +1163,14 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
+"@nexys/reactutils@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@nexys/reactutils/-/reactutils-1.0.4.tgz#107caaa95c060735c420f3cfdef561fe45c9ac65"
+  integrity sha512-4ZIDhgfR/DX86DukvxZmwtL4kp8QjCF/vsC4B3ZXoL7PlJoIYcQxIZ11W/v8H7s4ywirpdvoH6LN1BuaLtNXWQ==
+  dependencies:
+    "@nexys/utils" "^3.0.2"
+    react-router-dom "^5.1.0"
+
 "@nexys/utils@^3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@nexys/utils/-/utils-3.0.2.tgz#97d20be2b5593de93f912c0b51a781e949fc1be9"

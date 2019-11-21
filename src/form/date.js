@@ -6,7 +6,7 @@
 import React from 'react';
 
 import Flatpickr from 'react-flatpickr';
-import wrapComponent from '../hoc/date';
+import Hoc from '@nexys/reactutils';
 
 class MyDate extends React.Component {
   render() {
@@ -32,4 +32,4 @@ class MyDate extends React.Component {
   }
 }
 
-export default wrapComponent()(MyDate);
+export default Hoc.wrapComponent()(MyDate);

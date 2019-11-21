@@ -2,7 +2,8 @@ import React from 'react';
 
 
 import AsyncSelect from 'react-select/async';
-import wrapComponent from '../hoc/select2';
+//import wrapComponent from '../hoc/select2';
+import Hoc from '@nexys/reactutils';
 
 const colourOptions = [
   {id: 1, name: 'red'},
@@ -45,5 +46,5 @@ class Typeahead extends React.Component {
   }
 }
 
-export default wrapComponent()(Typeahead);
+export default Hoc.Select2()(Typeahead);
 

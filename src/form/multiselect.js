@@ -1,7 +1,9 @@
 import React from 'react';
 
 import Select from 'react-select';
-import wrapComponent from '../hoc/multiselect';
+//import wrapComponent from '../hoc/multiselect';
+import Hoc from '@nexys/reactutils';
+
 
 class MultiSelect extends React.Component {
   render() {
@@ -26,4 +28,4 @@ class MultiSelect extends React.Component {
   }
 }
 
-export default wrapComponent()(MultiSelect);
+export default Hoc.MultiSelect()(MultiSelect);

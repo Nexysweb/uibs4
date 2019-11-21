@@ -1,6 +1,7 @@
 import React from 'react';
 
-import wrapComponent from '../hoc/select';
+//import wrapComponent from '../hoc/select';
+import Hoc from '@nexys/reactutils';
 
 class Select extends React.Component {
   render() {
@@ -24,5 +25,5 @@ class Select extends React.Component {
   }
 }
 
-export default wrapComponent()(Select);
+export default Hoc.Select()(Select);
 

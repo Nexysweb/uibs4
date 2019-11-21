@@ -1,6 +1,6 @@
 import React from 'react';
 
-import wrapComponent from '../hoc/input';
+import Hoc from '@nexys/reactutils';
 
 class Input extends React.Component {
   render() {
@@ -19,4 +19,4 @@ class Input extends React.Component {
   }
 }
 
-export default wrapComponent()(Input);
+export default Hoc.wrapComponent()(Input);

@@ -2,6 +2,7 @@
   "name": "@nexys/uibs4",
   "version": "0.0.4",
   "dependencies": {
+    "@nexys/reactutils": "^1.0.4",
     "@nexys/utils": "^3.0.2",
     "cleave.js": "^1.5.3",
     "react-flatpickr": "^3.9.1",
@@ -11,9 +12,9 @@
   },
   "scripts": {
     "start": "start-storybook -p 6006",
-    "buildS": "build-storybook -s public",
     "build": "babel src/ --out-dir dist/;rm -rf dist/stories;rm dist/*.test.js",
-    "test": "jest "
+    "test": "jest ",
+    "buildStorybook": "build-storybook -s public  -o docs"
   },
   "main": "dist/index.js",
   "files": [

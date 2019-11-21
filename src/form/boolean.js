@@ -1,6 +1,6 @@
 import React from 'react';
 
-import wrapComponent from '../hoc/boolean';
+import Hoc from '@nexys/reactutils';
 
 class Input extends React.Component {
   render() {
@@ -12,4 +12,4 @@ class Input extends React.Component {
   }
 }
 
-export default wrapComponent()(Input);
+export default Hoc.Input()(Input);

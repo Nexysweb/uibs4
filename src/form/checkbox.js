@@ -1,6 +1,7 @@
 import React from 'react';
 
-import wrapComponent from '../hoc/input';
+import Hoc from '@nexys/reactutils';
+console.log(Hoc)
 
 class Checkbox extends React.Component {
   render() {
@@ -15,4 +16,4 @@ class Checkbox extends React.Component {
   }
 }
 
-export default wrapComponent()(Checkbox);
+export default Hoc.Checkbox()(Checkbox);

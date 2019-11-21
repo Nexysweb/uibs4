@@ -1,7 +1,8 @@
 import React from 'react';
 import Textarea from 'react-textarea-autosize';
 
-import wrapComponent from '../hoc/textarea';
+//import wrapComponent from '../hoc/textarea';
+import Hoc from '@nexys/reactutils';
 
 class MyTextarea extends React.Component {
   render() {
@@ -23,4 +24,4 @@ class MyTextarea extends React.Component {
   }
 }
 
-export default wrapComponent()(MyTextarea);
+export default Hoc.Textarea()(MyTextarea);

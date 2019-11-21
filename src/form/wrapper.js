@@ -6,7 +6,8 @@ import React from 'react';
 import Mandatory from '../components/mandatory.js';
 //import Tooltip from '../components/tooltip.js';
 
-import wrapComponent from '../hoc/wrapper';
+//import wrapComponent from '../hoc/wrapper';
+import Hoc from '@nexys/reactutils';
 
 const i18n = {
   translate: (k) => k
@@ -80,4 +81,4 @@ class Wrapper extends React.Component {
   }
 }
 
-export default wrapComponent()(Wrapper);
+export default Hoc.Wrapper()(Wrapper);
