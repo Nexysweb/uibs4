@@ -1163,18 +1163,18 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@nexys/reactutils@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@nexys/reactutils/-/reactutils-1.0.4.tgz#107caaa95c060735c420f3cfdef561fe45c9ac65"
-  integrity sha512-4ZIDhgfR/DX86DukvxZmwtL4kp8QjCF/vsC4B3ZXoL7PlJoIYcQxIZ11W/v8H7s4ywirpdvoH6LN1BuaLtNXWQ==
+"@nexys/reactutils@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@nexys/reactutils/-/reactutils-1.2.0.tgz#6ae9ccfee45ef86b280e74f62aa41c1a03b07fdd"
+  integrity sha512-SRKn95udOLWwX4MQkVDHmbETKzzq+eWUaUXuM3m1CUH6gT25vUVPi1aqBrERXHlOlGWasHegyr5Utp7WgR7F9w==
   dependencies:
-    "@nexys/utils" "^3.0.2"
+    "@nexys/utils" "^3.2.23"
     react-router-dom "^5.1.0"
 
-"@nexys/utils@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@nexys/utils/-/utils-3.0.2.tgz#97d20be2b5593de93f912c0b51a781e949fc1be9"
-  integrity sha512-DEjyqHmUWBBtx2rNApdFLdjs8fbP/ZZlMNotantFHGXug40UY2WoW7nKZuNHShaHbiAEbQpqtsvR6PBAp3OhNw==
+"@nexys/utils@^3.2.23":
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/@nexys/utils/-/utils-3.3.4.tgz#7e96944fe87e1751dd7046f408d07b8b123d05bc"
+  integrity sha512-Tqjbq6rDytsiuU16v2QL0yyZ2E7YhPAaYTEz1Pr45zH1LtnT6UnParZmfU2xF0zOMEsfkotDRM4ohpdaPuzjaw==
   dependencies:
     "@babel/runtime" "^7.5.5"
 

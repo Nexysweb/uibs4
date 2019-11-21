@@ -19,4 +19,4 @@ class Input extends React.Component {
   }
 }
 
-export default Hoc.wrapComponent()(Input);
+export default Hoc.Input()(Input);

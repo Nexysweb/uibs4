@@ -28,4 +28,4 @@ class MultiSelect extends React.Component {
   }
 }
 
-export default Hoc.MultiSelect()(MultiSelect);
+export default Hoc.Multiselect()(MultiSelect);

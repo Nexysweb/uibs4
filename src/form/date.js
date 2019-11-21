@@ -8,6 +8,8 @@ import React from 'react';
 import Flatpickr from 'react-flatpickr';
 import Hoc from '@nexys/reactutils';
 
+console.log(Hoc)
+
 class MyDate extends React.Component {
   render() {
     const className = 'form-control';
@@ -32,4 +34,6 @@ class MyDate extends React.Component {
   }
 }
 
-export default Hoc.wrapComponent()(MyDate);
+
+
+export default Hoc.Date()(MyDate);

@@ -2,8 +2,7 @@
   "name": "@nexys/uibs4",
   "version": "0.0.4",
   "dependencies": {
-    "@nexys/reactutils": "^1.0.4",
-    "@nexys/utils": "^3.0.2",
+    "@nexys/reactutils": "^1.2.0",
     "cleave.js": "^1.5.3",
     "react-flatpickr": "^3.9.1",
     "react-router-dom": "^5.1.0",

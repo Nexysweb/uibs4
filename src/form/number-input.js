@@ -1,7 +1,6 @@
 import React from 'react';
 import Cleave from 'cleave.js/react';
 
-//import wrapComponent from '../hoc/number-input';
 import Hoc from '@nexys/reactutils';
 
 class InputNumber extends React.Component {
@@ -22,4 +21,4 @@ class InputNumber extends React.Component {
   }
 }
 
-export default Hoc.InputNumber()(InputNumber);
+export default Hoc.NumberInput()(InputNumber);
